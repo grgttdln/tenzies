@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+.die--box {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 22px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.die--value {
+    /* font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    width: 5rem;
+    height: 5rem;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; */
+    width: 5rem;
+    height: 5rem;
+    border-radius: 22px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.452);
+}
+
+.die--value:hover {
+    margin-top: -5px;
+    width: 5.2rem;
+    height: 5.2rem;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.452);
+}
+
+img:hover {
+    width: 5.2rem;
+    height: 5.2rem;    
+}
+
+img {
+    width: 5rem;
+    height: 5rem;    
+}
+
+/* @media screen and (max-width: 680px) {
+    .die--box {
+        width: 4rem;
+        height: 4rem;
+    }    
+
+    .die--value {
+        width: 4rem;
+        height: 4rem;
+        font-size: 28px;
+    }
+} */
